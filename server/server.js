@@ -38,3 +38,4 @@ const server = http.createServer((req, res) => {
 server.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
 });
+ // http://localhost:8080/ always use this to run localhost
